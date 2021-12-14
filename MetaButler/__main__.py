@@ -649,6 +649,6 @@ def main():
     updater.idle()
 
 if __name__ == "__main__":
-    log.info("[META] Successfully loaded modules: " + str(ALL_MODULES))
+    log.info("[META Butler] Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     main()
